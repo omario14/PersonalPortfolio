@@ -296,8 +296,8 @@ export default function Home() {
               <div className="single_image">
                 <img src="../../assets/images/w6.png" alt="" />
                 <div className="image_overlay">
-                  <a href="/">View Full Project</a>
-                  <h2>WeCar3</h2>
+                  <a href="https://www.wecarebyrotaract.com">View Full Project</a>
+                  <h2>Wecarebyrotaract</h2>
                   <h4>Consult a mental health profetional</h4>
                 </div>
               </div>
