@@ -66,7 +66,7 @@ export default function Nav() {
                         </button>
                                         </a>
                         
-                        <a href='CV_OMAR_BENAMORF.pdf' download='CV_OMAR_BENAMORF.pdf'>
+                        <a href='CV_OMAR_BENAMOR.pdf' download='CV_OMAR_BENAMOR.pdf'>
                             <button className='btn highlighted-btn' style={{color:"white"}}>Get Resume</button>
                         </a>
                     </div>
