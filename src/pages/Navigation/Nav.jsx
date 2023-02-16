@@ -2,7 +2,7 @@ import React from "react";
 import Typical from 'react-typical';
 import './nav.css' ;
 
-export default function Nav(props) {
+export default function Nav() {
     return (
         <div>
             <header id="HOME" style={{backgroundPosition: '50% -125px'}}>
