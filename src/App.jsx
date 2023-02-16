@@ -5,7 +5,7 @@ import Footer from './pages/Footer/Footer';
 import './App.css'
 import { useEffect, useState } from 'react';
 import {motion} from 'framer-motion';
-import ReactAudioPlayer from 'react-audio-player';
+import {reactAudioPlayer} from 'react-audio-player';
 
 function App() {
   const [mousePosition,setMousePosition] = useState({
@@ -77,7 +77,11 @@ function App() {
     <Nav />
     <Home textEnter={textEnter} textLeave={textLeave}/>
     <Footer/>
-   
+    <reactAudioPlayer
+  src="../../assets/detective.mp3"
+  autoPlay={true}
+  loop
+/>
     </div>
   )
 }
