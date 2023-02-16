@@ -2,7 +2,7 @@ import React from "react";
 import Typical from 'react-typical';
 import './nav.css' ;
 
-export default function Nav() {
+export default function Nav(props) {
     return (
         <div>
             <header id="HOME" style={{backgroundPosition: '50% -125px'}}>
@@ -39,9 +39,10 @@ export default function Nav() {
                         <div className="row">
                             <div className="col-md-12 text-center">
                                 <div className="home_text wow fadeInUp animated">
-                                    <h2>it’s benamor omar</h2>
+                                    <h2 >it’s benamor omar</h2>
                             
-                        <Typical
+                            <div>
+                            <Typical
                         loop={Infinity}
                         steps={[
                             "Enthusiastic Developer  👨‍💻",
@@ -56,6 +57,8 @@ export default function Nav() {
                             1000,
                         ]}
                         />
+                            </div>
+                        
                         
                                     <img src="../../../assets/images/shape.png" alt="" />
                                     <div className='profile-options'>

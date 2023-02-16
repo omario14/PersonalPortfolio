@@ -1,0 +1,24 @@
+.cursorMouse{
+    z-index: 9999;
+    border:1px solid red;  
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.dot {
+    z-index: 9999;
+    height: 5px;
+    width: 5px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    position: fixed;
+    top: 13px;
+    left: 13px;
+    pointer-events: none;
+    
+  }

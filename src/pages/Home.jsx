@@ -6,7 +6,7 @@ import './home.css';
 
 
 
-export default function Home() {
+export default function Home(props) {
 
 
 
@@ -23,11 +23,11 @@ export default function Home() {
   }
   return (
     <div> 
-
+    
       <section className="services" id="SERVICE">
         <div className="container">
           <div className="row">
-            <div className="col-md-3 text-center">
+            <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-3 text-center">
               <div className="single_service wow fadeInUp" data-wow-delay="1s">
                 <i className="icon-pencil"></i>
                 <h2>Design</h2>
@@ -43,10 +43,10 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-md-3 text-center">
-              <div className="single_service wow fadeInUp" data-wow-delay="2s">
+            <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-3 text-center">
+              <div  className="single_service wow fadeInUp" data-wow-delay="2s">
                 <i className="icon-gears"></i>
-                <h2>Development</h2>
+                <h2 >Development</h2>
                 <p>
                   {" "}
                   I will develop any kind of website from scratch .<br />
@@ -56,7 +56,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-md-3 text-center">
+            <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-3 text-center">
               <div className="single_service wow fadeInUp" data-wow-delay="3s">
                 <i className="icon-video"></i>
                 <h2>editing</h2>
@@ -67,7 +67,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="col-md-3 text-center">
+            <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-3 text-center">
               <div className="single_service wow fadeInUp" data-wow-delay="4s">
                 <i className="icon-magnifying-glass"></i>
                 <h2>research, analysis and design</h2>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="about_us_area" id="ABOUT">
+      <section style={{backgroundColor:"white"}} className="about_us_area" id="ABOUT">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -92,8 +92,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="row">
+        <div  className="container">
+          <div className="row" >
             <div className="col-md-4  wow fadeInLeft animated">
               <div className="single_progress_bar">
                 <h2>SpringBoot - 90%</h2>
@@ -157,7 +157,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4  wow fadeInRight animated">
+            <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-4  wow fadeInRight animated">
               <p className="about_us_p">
                 <strong className="font-weight-bold">
                   {" "}
@@ -170,7 +170,7 @@ export default function Home() {
                 about HTML & CSS!{" "}
               </p>
             </div>
-            <div className="col-md-4  wow fadeInRight animated">
+            <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-4  wow fadeInRight animated">
               <p className="about_us_p">
                 I made a lot of native projects with PHP, Java, HTML and CSS and
                 projects using frameworks and libraries like{" "}
