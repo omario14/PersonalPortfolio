@@ -80,7 +80,6 @@ function App() {
     <ReactAudioPlayer
   src="../../assets/detective.mp3"
   autoPlay={true}
-  controls
   loop
 />
     </div>
