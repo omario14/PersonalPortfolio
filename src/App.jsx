@@ -75,13 +75,9 @@ function App() {
       />
       
     <Nav />
-    
+    <Home textEnter={textEnter} textLeave={textLeave}/>
     <Footer/>
-    <ReactAudioPlayer
-  src="../../assets/detective.mp3"
-  autoPlay={true}
-  loop
-/>
+   
     </div>
   )
 }
