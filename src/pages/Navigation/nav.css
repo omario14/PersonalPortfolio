@@ -248,24 +248,3 @@
 .speaker__toggle--anim {
   left: 54%;
 }
-
-/* font awesome icons */
-  
-.scProject .facebookIcon:before {
-  content:'\f09a';
-  }
-  .scProject .twitterIcon:before {
-  content:'\f099';
-  }
-  .scProject .behanceIcon:before {
-  content:'\f1b4';
-  }
-  .scProject .githubIcon:before {
-  content:'\f113';
-  }
-  .scProject .dribbleIcon:before {
-  content:'\f17d';
-  }
-  .scProject linkedinIcon:before {
-  content:'\f0e1';
-  }
