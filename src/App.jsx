@@ -5,9 +5,12 @@ import Footer from './pages/Footer/Footer';
 import './App.css'
 import { useEffect, useState } from 'react';
 import {motion} from 'framer-motion';
-import {reactAudioPlayer} from 'react-audio-player';
 
 function App() {
+  
+
+  
+  
   const [mousePosition,setMousePosition] = useState({
     x: 0,
     y: 0
@@ -16,6 +19,7 @@ function App() {
   const [cursorVariant,setCursorVariant] = useState("default");
 
   useEffect(()=> {
+    
     const mouseMove = e =>{
       setMousePosition({
         x: e.clientX,
@@ -23,8 +27,10 @@ function App() {
       })
     }
     window.addEventListener("mousemove",mouseMove);
+    
 
-    return () =>{
+    return () => {
+      
       window.removeEventListener("mousemove",mouseMove)
     }
   },[]);
@@ -74,14 +80,10 @@ function App() {
         animate={cursorVariant}
       />
       
+      
     <Nav />
-    <Home textEnter={textEnter} textLeave={textLeave}/>
+    <Home textEnter={textEnter} textLeave={textLeave} />
     <Footer/>
-    <reactAudioPlayer
-  src="../../assets/detective.mp3"
-  autoPlay={true}
-  loop
-/>
     </div>
   )
 }

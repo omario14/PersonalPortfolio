@@ -10,20 +10,36 @@ export default function Home(props) {
 
 
 
-  const sendEmail = (e) => { 
+  const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('gmail', 'template_xsouglf', e.target, 'user_PGXC8IvmNYbSPd1Lk1gAy')
       .then((result) => {
         console.log(result.text);
-        
+
         toast('Your message has been successfully sent.i will contact you soon.', { autoClose: 8000 });
- 
+
       });
-      e.target.reset();
+    e.target.reset();
   }
   return (
-    <div> 
-    
+    <div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div style={{width:"50%",height:"50%"}}  class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div style={{ padding: "75% 0 0 0", position: "relative" }}>
+                      <iframe src="https://player.vimeo.com/video/799880808?h=27a5952419&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{ position: "absolute", top: "0", left: "0", width: "100%", height: '100%' }} title="Seniguard Video"></iframe></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
       <section className="services" id="SERVICE">
         <div className="container">
           <div className="row">
@@ -44,7 +60,7 @@ export default function Home(props) {
               </div>
             </div>
             <div onMouseEnter={props.textEnter} onMouseLeave={props.textLeave} className="col-md-3 text-center">
-              <div  className="single_service wow fadeInUp" data-wow-delay="2s">
+              <div className="single_service wow fadeInUp" data-wow-delay="2s">
                 <i className="icon-gears"></i>
                 <h2 >Development</h2>
                 <p>
@@ -81,7 +97,7 @@ export default function Home(props) {
           </div>
         </div>
       </section>
-      <section style={{backgroundColor:"white"}} className="about_us_area" id="ABOUT">
+      <section style={{ backgroundColor: "white" }} className="about_us_area" id="ABOUT">
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
@@ -92,7 +108,7 @@ export default function Home(props) {
             </div>
           </div>
         </div>
-        <div  className="container">
+        <div className="container">
           <div className="row" >
             <div className="col-md-4  wow fadeInLeft animated">
               <div className="single_progress_bar">
@@ -110,7 +126,7 @@ export default function Home(props) {
                   </div>
                 </div>
               </div>
-              
+
               <div className="single_progress_bar">
                 <h2>ReactJS - 85%</h2>
                 <div className="progress">
@@ -220,7 +236,7 @@ export default function Home(props) {
 
       <br />
       <br />
-     
+
       <div className="fun_facts">
         <section
           className="header parallax home-parallax page"
@@ -286,37 +302,64 @@ export default function Home(props) {
               <div className="single_image">
                 <img src="../../assets/images/w1.png" alt="" />
                 <div className="image_overlay">
+                  <div className='scProject'>
+                    <a className='githubIcon' href="https://github.com/omario14/Pidev" target="_blank"><span>Github</span></a>
+                  </div>
                   <a href="/">View Full Project</a>
                   <h2>CONSOMMI TOUNSI</h2>
                   <h4>Website to support tunisian Dinar</h4>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 no_padding">
+            <div className="col-md-4 no_padding" >
+
+
               <div className="single_image">
                 <img src="../../assets/images/w6.png" alt="" />
                 <div className="image_overlay ">
-                 
 
-                  
-                  <a href="https://www.wecarebyrotaract.com" target="_blank">Visit website</a>
-                  
-                  <h2>Wecarebyrotaract</h2>
-                  <h4>Consult a mental health profetional</h4>
-                 
-                  
-                
+                  <div style={{ display: "flex" }}>
+                    <div className='scProject'>
+                      <a className="facebookIcon" href="#"><span>Facebook</span></a>
+                      <a className="twitterIcon" href="#"><span>Twitter</span></a>
+                      <a className="behanceIcon" href="#"><span>Behance</span></a>
+                      <a className="githubIcon" href="https://github.com/omario14/PsycoRact" target="_blank"><span>Github</span></a>
+                     
+                    </div>
+                    <div>
+
+                      <a href="https://www.wecarebyrotaract.com" target="_blank">Visit website</a>
+                    </div>
+                    <h2>Wecarebyrotaract</h2>
+                    <h4>Consult a mental health profetional</h4>
+                  </div>
+
+
                 </div>
-                
+
               </div>
+
             </div>
+            
+
             <div className="col-md-4 no_padding">
               <div className="single_image">
-                <img src="../../assets/images/w3.png" alt="" />
+                <img src="../../assets/images/w7.png" alt="" />
                 <div className="image_overlay">
-                  <a href="/">View Full Project</a>
+                  
+                <div style={{ display: "flex" }}>
+                    <div className='scProject'>
+                      <a className="behanceIcon" href="https://www.behance.net/gallery/159411769/Monitoring-system-for-elderly"><span>Behance</span></a>
+                      <a className='githubIcon' href="https://github.com/omario14/SeniorCare" target="_blank"><span>FrontEnd</span></a>
+                      <a className='githubIcon' href="https://github.com/omario14/BackendSeniorCare" target="_blank"><span>BackEnd</span></a>
+                      <a className='dribbleIcon' href="https://dribbble.com/shots/20614502-Seniguard-Elderly-App-UI-Design" target="_blank"><span>Dribbble</span></a>
+                    </div>
+                    <div>
+                      <a href="#" data-toggle="modal" data-target="#exampleModalCenter">View Full Project</a>
+                    </div>
                   <h2>silot project</h2>
                   <h4>Control Everything From One Place</h4>
+                  </div>
                 </div>
               </div>
             </div>
@@ -326,6 +369,9 @@ export default function Home(props) {
               <div className="single_image">
                 <img src="../../assets/images/w4.png" alt="" />
                 <div className="image_overlay">
+                  <div className='scProject'>
+                    <a className='githubIcon' href="https://github.com/omario14/Phoneverify/tree/main/Phoneverify" target="_blank"><span>Github</span></a>
+                  </div>
                   <a href="/">View Full Project</a>
                   <h2>phone checker</h2>
                   <h4>check your number</h4>
@@ -339,6 +385,7 @@ export default function Home(props) {
                   <a href="https://lican-pharma.com" target="_blank">Visit website</a>
                   <h2>Lican-Pharmacy.com</h2>
                   <h4>Site web d'un laboratoire pharmaceutique tunisien nommé Lican</h4>
+
                 </div>
               </div>
             </div>

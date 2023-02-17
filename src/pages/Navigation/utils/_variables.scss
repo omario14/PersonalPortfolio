@@ -1,0 +1,18 @@
+// NOTE : may this be confiusing, then rename to `val` or `value`
+@function val($name) {
+  @return unquote('var(--#{$name})');
+}
+
+// HINT : set variable property with value
+@mixin set-var($name, $value) {
+  --#{$name}: #{$value};
+}
+
+// HINT : set the `:root` selector variable
+@mixin set-root($variables) {
+  @at-root :root {
+    @each $name, $value in $variables {
+      @include set-var($name, $value);
+    }
+  }
+}

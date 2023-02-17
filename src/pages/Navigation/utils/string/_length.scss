@@ -1,0 +1,16 @@
+/// length
+/// @group function, string
+/// @param {String} $string
+/// @return {Number} $length - Length of the string
+@function length($collection) {
+  @if META.type-of($collection) == 'string' {
+    @return STR.length($collection);
+  }
+  @if META.type-of($collection) == 'list' {
+    @return LIST.length($collection);
+  }
+}
+
+@function len($collection) {
+  @return length($collection);
+}
