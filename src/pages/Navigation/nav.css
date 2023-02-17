@@ -248,3 +248,24 @@
 .speaker__toggle--anim {
   left: 54%;
 }
+
+/* font awesome icons */
+  
+   .facebookIcon:before {
+  content:'\f09a';
+  }
+   .twitterIcon:before {
+  content:'\f099';
+  }
+   .behanceIcon:before {
+  content:'\f1b4';
+  }
+   .githubIcon:before {
+  content:'\f113';
+  }
+   .dribbleIcon:before {
+  content:'\f17d';
+  }
+   linkedinIcon:before {
+  content:'\f0e1';
+  }
