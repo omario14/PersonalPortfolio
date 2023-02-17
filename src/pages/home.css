@@ -145,7 +145,7 @@ form p{
   .scProject .dribbleIcon:before {
   content:'\f17d';
   }
-  .scProject a:nth-of-type(6):before {
-  content:'\f1cb';
+  .scProject linkedinIcon:before {
+  content:'\f0e1';
   }
   
