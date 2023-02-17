@@ -117,7 +117,7 @@ export default function Nav() {
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
                                                         <span class="yek-social__button yek-social__button--gmail">
-                                                            <FontAwesomeIcon class="linkedinIcon yek-social__icon yek-social__icon--gmail " icon="fa-brands fa-linkedin-in" />
+                                                            <FontAwesomeIcon  icon="fa-brands fa-linkedin-in" />
                                                         </span>
                                                     </a>
                                                 </li>
