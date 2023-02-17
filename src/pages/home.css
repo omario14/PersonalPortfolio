@@ -130,22 +130,22 @@ form p{
   
   /* font awesome icons */
   
-  .scProject .facebookIcon:before {
+  .facebookIcon:before {
   content:'\f09a';
   }
-  .scProject .twitterIcon:before {
+  .twitterIcon:before {
   content:'\f099';
   }
-  .scProject .behanceIcon:before {
+  .behanceIcon:before {
   content:'\f1b4';
   }
-  .scProject .githubIcon:before {
+  .githubIcon:before {
   content:'\f113';
   }
-  .scProject .dribbleIcon:before {
+  .dribbleIcon:before {
   content:'\f17d';
   }
-  .scProject linkedinIcon:before {
+  linkedinIcon:before {
   content:'\f0e1';
   }
   
