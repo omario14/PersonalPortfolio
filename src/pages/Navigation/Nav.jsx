@@ -4,6 +4,7 @@ import './nav.css';
 import './nav.scss';
 
 import song from '../../../public/assets/detective.mp3'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Nav() {
     const [audio, setAudio] = useState(new Audio(song));
@@ -116,7 +117,7 @@ export default function Nav() {
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
                                                         <span class="yek-social__button yek-social__button--gmail">
-                                                            <i class="linkedinIcon yek-social__icon yek-social__icon--gmail "></i>
+                                                            <FontAwesomeIcon class="linkedinIcon yek-social__icon yek-social__icon--gmail " icon="fa-brands fa-linkedin-in" />
                                                         </span>
                                                     </a>
                                                 </li>
