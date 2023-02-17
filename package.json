@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
     "@mui/material": "^5.11.9",
     "framer-motion": "^9.0.4",
     "node-sass": "^8.0.0",
