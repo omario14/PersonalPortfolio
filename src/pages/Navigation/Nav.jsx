@@ -114,21 +114,21 @@ export default function Nav() {
                                     <div class="yek-social">
 	<ul class="yek-social__list">
 		<li class="yek-social__item">
-			<a class="yek-social__link" href="#">
+			<a class="yek-social__link" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
 				<span class="yek-social__button yek-social__button--gmail">
-					<i class="yek-social__icon yek-social__icon--gmail fa fa-envelope"></i>
+					<i class="yek-social__icon yek-social__icon--gmail fa fa-linkedin"></i>
 				</span>
 			</a>
 		</li>
 		<li class="yek-social__item">
-			<a class="yek-social__link" href="#">
+			<a class="yek-social__link" href="https://github.com/omario14" target="_blank">
 				<span class="yek-social__button yek-social__button--github">
 					<i class="yek-social__icon  yek-social__icon--codepen fa fa-github-alt"></i>
 				</span>
 			</a>
 		</li>
 		<li class="yek-social__item">
-			<a class="yek-social__link" href="#">
+			<a class="yek-social__link" href="https://www.behance.net/omarba5" target="_blank">
 				<span class="yek-social__button yek-social__button--codepen">
 					<i class="yek-social__icon yek-social__icon--codepen fa fa-behance"></i>
 				</span>

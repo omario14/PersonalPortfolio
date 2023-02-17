@@ -28,6 +28,7 @@ $COLOR_TWITTER: #00acee;
 $COLOR_GITHUB: #404840;
 $COLOR_CODEPEN: #222222;
 $COLOR_GMAIL: #ea4335;
+$COLOR_LINKEDIN: #0077B5;
 
 // color
 $body-bg: $yek-gray--400;
@@ -165,7 +166,7 @@ a {
 	}
 
 	&__link:hover &__button {
-		@include bx-variant("gmail", $COLOR_GMAIL);
+		@include bx-variant("gmail", $COLOR_LINKEDIN);
 		@include bx-variant("github", $COLOR_GITHUB);
 		@include bx-variant("codepen", $COLOR_CODEPEN);
 		transform: $bx-transform-target--hover;

@@ -112,7 +112,7 @@ export default function Home(props) {
           <div className="row" >
             <div className="col-md-4  wow fadeInLeft animated">
               <div className="single_progress_bar">
-                <h2>SpringBoot - 90%</h2>
+                <h2 style={{color:"black"}}>SpringBoot - 90%</h2>
                 <div className="progress">
                   <div
                     className="progress-bar"
@@ -128,7 +128,7 @@ export default function Home(props) {
               </div>
 
               <div className="single_progress_bar">
-                <h2>ReactJS - 85%</h2>
+                <h2 style={{color:"black"}}>ReactJS - 85%</h2>
                 <div className="progress">
                   <div
                     className="progress-bar"
@@ -143,7 +143,7 @@ export default function Home(props) {
                 </div>
               </div>
               <div className="single_progress_bar">
-                <h2>Angular - 60%</h2>
+                <h2 style={{color:"black"}}>Angular - 60%</h2>
                 <div className="progress">
                   <div
                     className="progress-bar"
@@ -158,7 +158,7 @@ export default function Home(props) {
                 </div>
               </div>
               <div className="single_progress_bar">
-                <h2>CSS3 - 75%</h2>
+                <h2 style={{color:"black"}}>CSS3 - 75%</h2>
                 <div className="progress">
                   <div
                     className="progress-bar"
