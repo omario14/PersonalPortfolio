@@ -55,7 +55,7 @@ export default function Nav() {
                                         <div className="speaker" onClick={playPause}>
                                             <div className={playing ? "speaker__toggle" : "speaker__toggle speaker__toggle--anim"}>&nbsp;</div>
                                             <div className="speaker__muted">
-                                                <img src="src\assets\muted.svg" alt="muted icon" />
+                                                <img src="../../../assets/images/muted.svg" alt="muted icon" />
                                             </div>
                                             <div className="speaker__unmuted">
                                                 <svg width="14" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
