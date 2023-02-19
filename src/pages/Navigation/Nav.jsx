@@ -116,21 +116,21 @@ export default function Nav() {
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
                                                         <span class="yek-social__button yek-social__button--gmail">
-                                                            <i class="yek-social__icon yek-social__icon--gmail fa fa-linkedin"></i>
+                                                            <i class="yek-social__icon yek-social__icon--gmail linkedinIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://github.com/omario14" target="_blank">
                                                         <span class="yek-social__button yek-social__button--github">
-                                                            <i class="yek-social__icon  yek-social__icon--codepen fa fa-github-alt"></i>
+                                                            <i class="yek-social__icon  yek-social__icon--codepen githubIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://www.behance.net/omarba5" target="_blank">
                                                         <span class="yek-social__button yek-social__button--codepen">
-                                                            <i class="yek-social__icon yek-social__icon--codepen fa fa-behance"></i>
+                                                            <i class="yek-social__icon yek-social__icon--codepen behanceIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
