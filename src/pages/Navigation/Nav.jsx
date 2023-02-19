@@ -111,26 +111,26 @@ export default function Nav() {
                                         </a>
                                     </div>
                                     <div className='profile-options' style={{ margin: "0 0 0 20%" }}>
-                                        <div class="yek-social">
-                                            <ul class="yek-social__list">
-                                                <li class="yek-social__item">
-                                                    <a class="yek-social__link" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
-                                                        <span class="yek-social__button yek-social__button--gmail">
-                                                            <i class="yek-social__icon yek-social__icon--gmail linkedinIcon"></i>
+                                        <div className="yek-social">
+                                            <ul className="yek-social__list">
+                                                <li className="yek-social__item">
+                                                    <a className="yek-social__link linkedinIcon" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
+                                                        <span className="yek-social__button yek-social__button--gmail">
+                                                            <i className="yek-social__icon yek-social__icon--gmail linkedinIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
-                                                <li class="yek-social__item">
-                                                    <a class="yek-social__link" href="https://github.com/omario14" target="_blank">
-                                                        <span class="yek-social__button yek-social__button--github">
-                                                            <i class="yek-social__icon  yek-social__icon--codepen githubIcon"></i>
+                                                <li className="yek-social__item">
+                                                    <a className="yek-social__link githubIcon" href="https://github.com/omario14" target="_blank">
+                                                        <span className="yek-social__button yek-social__button--github">
+                                                            <i className="yek-social__icon  yek-social__icon--codepen githubIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
-                                                <li class="yek-social__item">
-                                                    <a class="yek-social__link" href="https://www.behance.net/omarba5" target="_blank">
-                                                        <span class="yek-social__button yek-social__button--codepen">
-                                                            <i class="yek-social__icon yek-social__icon--codepen behanceIcon"></i>
+                                                <li className="yek-social__item">
+                                                    <a className="yek-social__link behanceIcon" href="https://www.behance.net/omarba5" target="_blank">
+                                                        <span className="yek-social__button yek-social__button--codepen">
+                                                            <i className="yek-social__icon yek-social__icon--codepen behanceIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
