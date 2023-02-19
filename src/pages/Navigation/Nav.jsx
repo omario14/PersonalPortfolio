@@ -114,23 +114,23 @@ export default function Nav() {
                                         <div className="yek-social">
                                             <ul className="yek-social__list">
                                                 <li className="yek-social__item">
-                                                    <a className="yek-social__link linkedinIcon" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
+                                                    <a className="yek-social__link " href="https://linkedin.com/in/omarbenamorlin" target="_blank">
                                                         <span className="yek-social__button yek-social__button--gmail">
-                                                            <a href="#" className="yek-social__icon yek-social__icon--gmail linkedinIcon"></a>
+                                                            <i className="yek-social__icon yek-social__icon--gmail linkedinIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li className="yek-social__item">
-                                                    <a className="yek-social__link githubIcon" href="https://github.com/omario14" target="_blank">
+                                                    <a className="yek-social__link " href="https://github.com/omario14" target="_blank">
                                                         <span className="yek-social__button yek-social__button--github">
-                                                            <a href="#" className="yek-social__icon  yek-social__icon--codepen githubIcon"></a>
+                                                            <i className="yek-social__icon  yek-social__icon--codepen githubIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li className="yek-social__item">
                                                     <a className="yek-social__link" href="https://www.behance.net/omarba5" target="_blank">
                                                         <span className="yek-social__button yek-social__button--codepen">
-                                                            <a href="#" className="yek-social__icon yek-social__icon--codepen behanceIcon"></a>
+                                                            <i className="yek-social__icon yek-social__icon--codepen behanceIcon"></i>
                                                         </span>
                                                     </a>
                                                 </li>
