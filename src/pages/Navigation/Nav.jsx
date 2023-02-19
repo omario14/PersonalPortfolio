@@ -116,21 +116,21 @@ export default function Nav() {
                                                 <li className="yek-social__item">
                                                     <a className="yek-social__link linkedinIcon" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
                                                         <span className="yek-social__button yek-social__button--gmail">
-                                                            <i className="yek-social__icon yek-social__icon--gmail linkedinIcon"></i>
+                                                            <a href="#" className="yek-social__icon yek-social__icon--gmail linkedinIcon"></a>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li className="yek-social__item">
                                                     <a className="yek-social__link githubIcon" href="https://github.com/omario14" target="_blank">
                                                         <span className="yek-social__button yek-social__button--github">
-                                                            <i className="yek-social__icon  yek-social__icon--codepen githubIcon"></i>
+                                                            <a href="#" className="yek-social__icon  yek-social__icon--codepen githubIcon"></a>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li className="yek-social__item">
-                                                    <a className="yek-social__link behanceIcon" href="https://www.behance.net/omarba5" target="_blank">
+                                                    <a className="yek-social__link" href="https://www.behance.net/omarba5" target="_blank">
                                                         <span className="yek-social__button yek-social__button--codepen">
-                                                            <i className="yek-social__icon yek-social__icon--codepen behanceIcon"></i>
+                                                            <a href="#" className="yek-social__icon yek-social__icon--codepen behanceIcon"></a>
                                                         </span>
                                                     </a>
                                                 </li>
