@@ -4,7 +4,6 @@ import './nav.css';
 import './nav.scss';
 
 import song from '../../../public/assets/detective.mp3'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Nav() {
     const [audio, setAudio] = useState(new Audio(song));
@@ -56,7 +55,7 @@ export default function Nav() {
                                         <div className="speaker" onClick={playPause}>
                                             <div className={playing ? "speaker__toggle" : "speaker__toggle speaker__toggle--anim"}>&nbsp;</div>
                                             <div className="speaker__muted">
-                                                <img src="../../assets/muted.svg" alt="muted icon" />
+                                                <img src="src\assets\muted.svg" alt="muted icon" />
                                             </div>
                                             <div className="speaker__unmuted">
                                                 <svg width="14" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,21 +116,21 @@ export default function Nav() {
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://linkedin.com/in/omarbenamorlin" target="_blank">
                                                         <span class="yek-social__button yek-social__button--gmail">
-                                                            <FontAwesomeIcon  icon="fa-brands fa-linkedin-in" />
+                                                            <i class="yek-social__icon yek-social__icon--gmail fa fa-linkedin"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://github.com/omario14" target="_blank">
                                                         <span class="yek-social__button yek-social__button--github">
-                                                            <i class="githubIcon yek-social__icon  yek-social__icon--codepen "></i>
+                                                            <i class="yek-social__icon  yek-social__icon--codepen fa fa-github-alt"></i>
                                                         </span>
                                                     </a>
                                                 </li>
                                                 <li class="yek-social__item">
                                                     <a class="yek-social__link" href="https://www.behance.net/omarba5" target="_blank">
                                                         <span class="yek-social__button yek-social__button--codepen">
-                                                            <i class="yek-social__icon yek-social__icon--codepen behanceIcon"></i>
+                                                            <i class="yek-social__icon yek-social__icon--codepen fa fa-behance"></i>
                                                         </span>
                                                     </a>
                                                 </li>
